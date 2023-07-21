@@ -22,8 +22,15 @@
 #btn>button:last-child{
   background-color: greenyellow;
 }
+#container{
+  display: flex;
+  justify-content: space-evenly;
+  border: 2px solid #666;
+  padding: 20px 0;
+}
 #contain{
   text-align: center;
+  width: 250px;
 }
 #contain>p:nth-of-type(1){
   color: #101074;
